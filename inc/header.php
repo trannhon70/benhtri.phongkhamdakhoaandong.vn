@@ -23,8 +23,8 @@ header("Timing-Allow-Origin: *");
 header("Cache-Control: public, max-age=31536000");
 header('Server-Timing: db;desc="Database";dur=' . $dbReadTotalTime);
 
-// $local ='http://localhost/benhtri.phongkhamdakhoaandong.vn'
-$local ='https://benhtri.phongkhamdakhoaandong.vn'
+$local ='http://localhost/benhtri.phongkhamdakhoaandong.vn'
+// $local ='https://benhtri.phongkhamdakhoaandong.vn'
 ?>
 
 
