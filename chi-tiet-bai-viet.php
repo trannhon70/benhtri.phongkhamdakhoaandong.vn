@@ -28,7 +28,7 @@ else {
 
 <?php if (isset($postDetail['hiden_khoa']) && $postDetail['hiden_khoa'] === '1'): ?>
     <script type="text/javascript">
-        window.location.href = "/404.html";
+        window.location.href = "<?php echo $local ?>/404.php";
     </script>
 <?php endif; ?>
 
