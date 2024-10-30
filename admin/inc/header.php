@@ -110,6 +110,9 @@ header("Cache-Control: max-age=2592000");
                             <li style="padding-left: 10%;" class="sidebar-item">
                                 <a href="benh-list.php" class="sidebar-link"> <i class="fa-solid fa-list-ol"></i>Danh sách bệnh lý</a>
                             </li>
+                            <li style="padding-left: 10%;" class="sidebar-item">
+                                <a href="khoa-list.php" class="sidebar-link"> <i class="fa-solid fa-list-ol"></i>Danh sách khoa</a>
+                            </li>
                         </ul>
                     </li>
 

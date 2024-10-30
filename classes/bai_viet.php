@@ -221,13 +221,15 @@ $query = "SELECT COUNT(*) AS total FROM admin_baiviet WHERE id_benh = ' $id_benh
     $query = "SELECT baiviet.*, 
     benh.name AS name_benh, 
     benh.id_khoa AS id_khoa, 
-    khoa.name AS name_khoa 
+    khoa.name AS name_khoa ,
+    khoa.hiden AS hiden_khoa 
     FROM admin_baiviet baiviet 
     JOIN admin_benh benh ON baiviet.id_benh = benh.id 
     JOIN admin_khoa khoa ON khoa.id = benh.id_khoa 
     WHERE baiviet.slug = '$id' 
     LIMIT 1";
     $result = $this->db->select($query);
+    
     if ($result) {
       return $result->fetch_assoc();
     } else {
@@ -367,7 +369,8 @@ $query = "SELECT COUNT(*) AS total FROM admin_baiviet WHERE id_benh = ' $id_benh
       $query = "SELECT baiviet.*, 
       benh.name AS name_benh, 
       benh.id_khoa AS id_khoa, 
-      khoa.name AS name_khoa 
+      khoa.name AS name_khoa ,
+      khoa.hiden AS hiden_khoa 
       FROM admin_baiviet baiviet 
       JOIN admin_benh benh ON baiviet.id_benh = benh.id 
       JOIN admin_khoa khoa ON khoa.id = benh.id_khoa 

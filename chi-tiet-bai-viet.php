@@ -23,7 +23,14 @@ else {
     }
 }
 
+
 ?>
+
+<?php if (isset($postDetail['hiden_khoa']) && $postDetail['hiden_khoa'] === '1'): ?>
+    <script type="text/javascript">
+        window.location.href = "/404.html";
+    </script>
+<?php endif; ?>
 
 <body>
     <?php include_once 'layout/header_component.php' ?>
