@@ -9,9 +9,9 @@ $DSBenh = $benh->getDSBenhThuocKhoaTTYK();
             <amp-img class="header__top-left" src="<?php echo $local ?>/images/logos/logo.webp" height="80px" width="245px" alt="..."></amp-img>
         </a>
         <div class="header__top-right">
-            <a href="tel:+0968063109" class="header__top-right-phone">
+            <a href="tel:02877779888" class="header__top-right-phone">
                 <amp-img class="header__top-right-phone-img" src="<?php echo $local ?>/images/icons/icon_phone.webp" height="35px" width="35px" alt="..."></amp-img>
-                <div>0968 063 109</div>
+                <div>028 7777 9888</div>
             </a>
             <a href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"  class="header__top-right-phone">
                 <amp-img class="header__top-right-phone-img" src="<?php echo $local ?>/images/icons/icon_location.webp" height="35px" width="35px" alt="..."></amp-img>
@@ -67,11 +67,11 @@ $DSBenh = $benh->getDSBenhThuocKhoaTTYK();
             <amp-img class="header__top-right-phone-img" src="<?php echo $local ?>/images/logos/logo_mobile.webp" height="44px" width="132px" alt="..."></amp-img>
         </a>
         <div class="header__mobile-body-right">
-            <a href="tel:+0968063109" class="header__mobile-body-right-item">
+            <a href="tel:02877779888" class="header__mobile-body-right-item">
                 <div class="header__mobile-body-right-item-icon">
                     <amp-img class="header__mobile-body-right-item-icon" src="<?php echo $local ?>/images/icons/icon_phone.webp" height="16px" width="16px" alt="..."></amp-img>
                 </div>
-                <span>0968 063 109</span>
+                <span>028 7777 9888</span>
             </a>
             <a href="https://npa.zoosnet.net/LR/Chatpre.aspx?id=NPA46777247&lng=en"  class="header__mobile-body-right-item">
                 <div class="header__mobile-body-right-item-icon">

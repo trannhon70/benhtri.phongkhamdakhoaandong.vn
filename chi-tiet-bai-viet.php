@@ -94,7 +94,6 @@ else {
             .then(response => response.json()) 
             .then(data => {
                 if (data) {
-                    console.log(data);
                     document.getElementById('detail__left-title').innerText = data.data.tieu_de || 'Không có tiêu đề';
 
                     document.getElementById('bai-viet').innerHTML = data.data.content || 'Không có nội dung';
@@ -161,7 +160,7 @@ else {
             if (baiVietElement) {
                 // Lấy nội dung HTML của phần tử
                 let content = baiVietElement.innerHTML;
-                let updatedContent = content.replace(/\(028\) 7776 7777/g, '0968 063 109');
+                let updatedContent = content.replace(/\(028\) 7776 7777/g, '0968 063 109, 028 7777 9888');
 
                 updatedContent = updatedContent.replace(/Số\.73, Kinh Dương Vương, P\.12, Q\.6, TP\.HCM\./g, '360 An Dương Vương, P.4, Q.5, TP.HCM');
                 updatedContent = updatedContent.replace(/73, Kinh Dương Vương, P\.12, Q\.6, TPHCM\./g, '360 An Dương Vương, P.4, Q.5, TPHCM');
