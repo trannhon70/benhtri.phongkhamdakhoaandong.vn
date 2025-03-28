@@ -25,7 +25,13 @@ else {
 
 
 ?>
-
+<?php
+if (strpos($_SERVER['REQUEST_URI'], 'phong-kham-an-dong-phong-kham-da-khoa-uy-tin-tphcm-158.html') !== false) {
+    header("HTTP/1.0 404 Not Found");
+    include '404.php';
+    exit();
+}
+?>
 <?php if (isset($postDetail['hiden_khoa']) && $postDetail['hiden_khoa'] === '1'): ?>
     <script type="text/javascript">
         window.location.href = "<?php echo $local ?>/404.php";
